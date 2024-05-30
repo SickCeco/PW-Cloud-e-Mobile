@@ -1,7 +1,4 @@
-const connect_to_db = require('./db');  //carica le librerie 
-
-// GET BY TALK HANDLER
-
+const connect_to_db = require('./db');
 const talk = require('./Talk');
 
 module.exports.get_by_tag = (event, context, callback) => {
